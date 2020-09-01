@@ -1,0 +1,43 @@
+{
+    tags: ['beats_input_codec_plain_applied', 'li_es107', 'lp_es109'],
+    mdc: {
+        dmcVersion: 'Build 6.90.4519.2'
+    },
+    '@timestamp': '2020-07-07T00:01:10.711Z',
+    thread: {
+        name: 'job-processor-ds-o-9'
+    },
+    ndc: 'mdbo',
+    regionid: '2',
+    arrival_ts: '2020-07-07T00:01:12.511Z',
+    processing_ts: '2020-07-07T00:01:13.994Z',
+    message: 'MR export finished with parameters: [customerId = 13076, exportId = 21971, processId = 16033071, finishTimestamp = 
+    1594080070711,
+    exportType = related_data,
+    exportService = ECMDAS,
+    processingTime = 68711 ms,
+    success = true]
+',
+level: 'INFO',
+    logger_name: 'REPORT_EXPORT',
+    source: '/home/ecm1/ecmessenger/work/spool_logstash/logstash.json',
+    prospector: {
+        type: 'log'
+    },
+    class: 'com.domeus.logging.DomeusLog4jLog',
+    customerid: 13076,
+    database: 'pos13',
+    machine: {
+        name: 'app80',
+        type: 'app'
+    },
+    type: 'dmc',
+    file: 'DomeusLog4jLog.java',
+    '@version': 1,
+    beat: {
+        hostname: 'app80',
+        version: '6.2.2',
+        name: 'app80.muc.domeus.com'
+    },
+    colocation: 'EMC'
+}
